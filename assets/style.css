@@ -1,0 +1,43 @@
+
+*{ /*this style attribute overrides everything*/
+    
+    background-color: #24252a}
+
+    :root {
+        --main-text-color: hotpink;
+        --display: flex;
+    }
+
+    .about {
+        color: var(--main-text-color);
+    }
+
+    .navbarSupportedContent{
+        color: var(--main-text-color);
+    } 
+
+
+.bgimage {
+    height:10vh;
+    range: url("C:\Users\Owner\Downloads\1140-big-bend-national-park-hero.imgcache.rev.web.1140.655.jpg");
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    display: var(--display);
+}
+.hero_desc {
+    font-size: 2rem;
+    display: var(--display);
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: var(--display);
+}
